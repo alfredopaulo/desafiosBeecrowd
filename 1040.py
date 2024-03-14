@@ -4,7 +4,7 @@ N1, N2,N3,N4 = [float(x) for x in input().split(' ')]
 
 media = ((N1 * 2) + (N2 * 3) + (N3 * 4) + N4)/10
 
-print(f"Media: {media}")
+print(f"Media: {media:.1f}")
 if(media>= 7.0):
     print("Aluno aprovado.")
 if(media<5):
